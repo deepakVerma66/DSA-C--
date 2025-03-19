@@ -4,11 +4,11 @@ using namespace std;
 
 int main(){
 
-    vector <int> v(5);
-    cout<<"Enter the five Elements of the vector:";
-    for(int i=0;i<v.size();i++){
-        cin>>v[i];
-    }
+    // vector <int> v(5);
+    // cout<<"Enter the five Elements of the vector:";
+    // for(int i=0;i<v.size();i++){
+    //     cin>>v[i];
+    // }
 // 1.) Program to find the occurence of an element in the vector
     // cout<<"Enter value to search:";
     // int val;
@@ -63,18 +63,18 @@ int main(){
 
 
 //4.)Check if the array is sorted or not
-    bool is_Sorted = true;
-    for(int i=0;i<v.size();i++){
-        if(v[i]>=v[i+1]){
-            is_Sorted = false;
-        }
-    }
-    if(is_Sorted){
-        cout<<"Vector is sorted....";
-    }
-    else{
-        cout<<"Vector is not sorted....";
-    }
+    // bool is_Sorted = true;
+    // for(int i=0;i<v.size();i++){
+    //     if(v[i]>=v[i+1]){
+    //         is_Sorted = false;
+    //     }
+    // }
+    // if(is_Sorted){
+    //     cout<<"Vector is sorted....";
+    // }
+    // else{
+    //     cout<<"Vector is not sorted....";
+    // }
 
 //5.) difference between sum of elements at even position to the sum of element at odd position
 
@@ -92,4 +92,12 @@ int main(){
     // cout<<"Sum of elements at odd position is: "<<sum_odd<<endl;
     // cout<<"The difference between sum of elements at even position to the sum of element at odd position is "<<sum_even-sum_odd<<"...!";
 
+
+    vector<int> v1={1,2,3};
+    v1.push_back(25);
+    v1.insert(v1.begin()+1,355);
+    for(int i=0;i<(v1.size());i++){
+        cout<<v1[i]<<" ";
+    }
+    return 0;
 }

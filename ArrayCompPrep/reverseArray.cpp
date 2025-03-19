@@ -62,8 +62,7 @@ using namespace std;
 int main(){
     int arr[] = {1,2,3,4,5,6};
     int size = sizeof(arr)/sizeof(arr[0]);
-    int m=3;
-    int start = m+1,end = size-1;
+    int start = 0,end = size-1;
     while(start<=end){
         swap(arr[start],arr[end]);
         start++;
