@@ -1,8 +1,3 @@
-for(auto it:mp){
-        if(it.second%2==0){
-            // return false;
-        }
-        else{
-            return false;
-        }
+for(auto i:nums2){
+        cout<<i<<" ";
     }
