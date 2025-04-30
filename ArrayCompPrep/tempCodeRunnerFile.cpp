@@ -1,4 +1,4 @@
-for(int i=0;i<sums.size();i++){
-    //     target+=sums(i);
-    // }
-    // co
+else if(sum<req){
+            cout<<0<<endl;
+            cout<<"Not enough food"<<endl;
+        }
