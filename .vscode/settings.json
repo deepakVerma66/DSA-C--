@@ -16,6 +16,7 @@
         "utility": "cpp",
         "valarray": "cpp",
         "sstream": "cpp",
-        "regex": "cpp"
+        "regex": "cpp",
+        "list": "cpp"
     }
 }
