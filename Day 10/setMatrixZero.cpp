@@ -1,9 +1,10 @@
 #include<iostream>
 #include<vector>
 using namespace std;
+// In this approach we are replacing the row and column, where 0 encounters, with a number limit(1e9+7)(earlier we replaced it with -1 but that caused problem since there already exists some elements which are -1 however this appproach can also cause error we are assuming that the limit number doesn't exists in the matrix) while iterating over the matrix wherever 0 is found that row and column is replaced with limit and in the next iteration we will replace the limit element with 1 and get the 
 int main()
 {
-    vector<vector<int>> mat = {{-1},{2},{3}};
+    vector<vector<int>> mat = {{-1,1},{2,1},{3,0}};
     int n = mat.size();
     int m = mat[0].size();
     int limit = 1e9 + 7;
