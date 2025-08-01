@@ -65,7 +65,7 @@ using namespace std;
 //     }
 // }
 
-
+// Moore voting algo 
 int main(){
     vector<int> nums = {7,7,5,7,5,1,5,7,5,5,7,7,5,5,5,5};
     int count=1,currEle = nums[0];
