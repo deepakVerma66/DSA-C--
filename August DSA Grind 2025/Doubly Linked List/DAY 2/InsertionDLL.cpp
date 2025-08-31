@@ -87,7 +87,7 @@ int main(){
     vector<int> nums = {1,2,3,5,6};
     ListNode* head = convertArray2DLL(nums);
     printDLL(head);
-    head = insertAtHead(head,1);
+    head = insertAtHead(head,0);
     printDLL(head);
     head = insertAtTail(head,7);
     printDLL(head);
