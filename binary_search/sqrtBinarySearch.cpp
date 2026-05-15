@@ -18,6 +18,6 @@ int sqrtbinSrch(int num){
     return ans;
 }
 int main(){
-    cout<<"Square of 36 is: "<<sqrtbinSrch(48);
+    cout<<"Square of 55 is: "<<sqrtbinSrch(55);
     
 }

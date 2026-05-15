@@ -17,6 +17,7 @@
         "valarray": "cpp",
         "sstream": "cpp",
         "regex": "cpp",
-        "list": "cpp"
+        "list": "cpp",
+        "unordered_set": "cpp"
     }
 }
